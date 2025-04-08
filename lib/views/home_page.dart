@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Add New Task'),
+          title: Text('Add New Task!'),
           content: TextField(
             onSubmitted: (value) {
               if (newTaskContent != null) {
